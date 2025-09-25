@@ -2,7 +2,7 @@
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/ANONYMOUS/MIR-L.git
+   git clone https://github.com/Thomkat/MIR-L.git
    cd MIR-L
    ```
 2. Create a new conda environment using the file provided:
