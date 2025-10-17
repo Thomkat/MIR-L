@@ -28,6 +28,8 @@
 
 ## Dataset Structure
 
+Train/test datasets are available to download [**here**](https://drive.google.com/file/d/1NsDbszHF3OIJk_jMnXg2LuOqE8sXQvU8/view?usp=sharing).
+
 The code expects the following folder structure under `./datasets/`, by default:
 
 ```
