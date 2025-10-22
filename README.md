@@ -1,6 +1,7 @@
 # MIR-L
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2510.14463)
+[![model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/Tomk187/MIR-L)
 
 This repository provides a PyTorch implementation of the MIR-L model proposed in the paper titled **Pruning Overparameterized Multi-Task Networks for Degraded Web Image Restoration**.
 
@@ -9,6 +10,7 @@ This repository provides a PyTorch implementation of the MIR-L model proposed in
 ---
 
 ## News / Updates
+- *[Oct 2025]* Pre-trained models are available on Google Drive and 🤗 Hugging Face.
 - *[Oct 2025]* Datasets are available.
 - *[Sep 2025]* Paper accepted as a long paper at **WI-IAT 2025**.
 
@@ -19,6 +21,21 @@ This repository provides a PyTorch implementation of the MIR-L model proposed in
 Train/test datasets are available to download [**here**](https://drive.google.com/file/d/1NsDbszHF3OIJk_jMnXg2LuOqE8sXQvU8/view?usp=sharing).
 
 See [`INSTALL.md`](INSTALL.md) for details.
+
+---
+
+## Pre-trained Models
+
+We provide the following pre-trained MIR-L models for different restoration tasks:
+
+| Task | Google Drive Link |
+|------|-------------|
+| **Denoising** | [MIR-L Denoise](https://drive.google.com/file/d/1PmEbaA0y3QXj_sDPVDTarp36LoiVq7Kd/view?usp=sharing) |
+| **Deraining** | [MIR-L Derain](https://drive.google.com/file/d/1HuQ-dp25EIeQDfzf4YdP03s0pQv9np9X/view?usp=sharing) |
+| **Dehazing** | [MIR-L Dehaze](https://drive.google.com/file/d/1YMHVuoh0TM7hERAgMWQG0Db9MYM-JCVO/view?usp=sharing) |
+| **All-in-One** | [MIR-L All-in-One](https://drive.google.com/file/d/12-8y8HkzCEm58e6wdInlzF1WLYDivciz/view?usp=sharing) |
+
+All models are also available on [🤗 Hugging Face](https://huggingface.co/Tomk187/MIR-L).
 
 ---
 

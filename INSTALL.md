@@ -8,7 +8,6 @@
 2. Create a new conda environment using the file provided:
    ```bash
    conda env create -n mirl -f environment.yml
-   conda activate mirl
    ```
 3. Activate the environment:
    ```bash
