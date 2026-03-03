@@ -1,11 +1,29 @@
-# MIR-L
+<h1 align="center">MIR-L</h1>
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2510.14463)
-[![model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/Tomk187/MIR-L)
+<p align="center">
+  <a href="https://arxiv.org/abs/2510.14463">
+    <img src="https://img.shields.io/badge/arXiv-2510.14463-b31b1b.svg" />
+  </a>
+  <a href="https://huggingface.co/Tomk187/MIR-L">
+    <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Model-yellow.svg" />
+  </a>
+</p>
 
-This repository provides a PyTorch implementation of the MIR-L model proposed in the paper titled **Pruning Overparameterized Multi-Task Networks for Degraded Web Image Restoration**.
+<p align="center">
+  <img src="assets/mirl.gif" width="750"/>
+</p>
 
-> **Abstract:** Image quality is a critical factor in delivering visually appealing content on web platforms. However, images often suffer from degradation due to lossy operations applied by online social networks (OSNs), negatively affecting user experience. Image restoration is the process of recovering a clean high-quality image from a given degraded input. Recently, multi-task (all-in-one) image restoration models have gained significant attention, due to their ability to simultaneously handle different types of image degradations. However, these models often come with an excessively high number of trainable parameters, making them computationally inefficient. In this paper, we propose a strategy for compressing multi-task image restoration models. We aim to discover highly sparse subnetworks within overparameterized deep models that can match or even surpass the performance of their dense counterparts. The proposed model, namely MIR-L, utilizes an iterative pruning strategy that removes low-magnitude weights across multiple rounds, while resetting the remaining weights to their original initialization. This iterative process is important for the multi-task image restoration model’s optimization, effectively uncovering “winning tickets” that maintain or exceed state-of-the-art performance at high sparsity levels. Experimental evaluation on benchmark datasets for the deraining, dehazing, and denoising tasks shows that MIR-L retains only 10% of the trainable parameters while maintaining high image restoration performance.
+<p align="center">
+  This repository provides a PyTorch implementation of the MIR-L model proposed in the paper titled <b>Pruning Overparameterized Multi-Task Networks for Degraded Web Image Restoration</b>.
+</p>
+<p align="center">
+  MIR-L achieves 90% reduction in trainable parameters through lottery tickets while maintaining or exceeding state-of-the-art performance on deraining, dehazing, and denoising tasks.
+</p>
+
+---
+
+## Abstract
+> Image quality is a critical factor in delivering visually appealing content on web platforms. However, images often suffer from degradation due to lossy operations applied by online social networks (OSNs), negatively affecting user experience. Image restoration is the process of recovering a clean high-quality image from a given degraded input. Recently, multi-task (all-in-one) image restoration models have gained significant attention, due to their ability to simultaneously handle different types of image degradations. However, these models often come with an excessively high number of trainable parameters, making them computationally inefficient. In this paper, we propose a strategy for compressing multi-task image restoration models. We aim to discover highly sparse subnetworks within overparameterized deep models that can match or even surpass the performance of their dense counterparts. The proposed model, namely MIR-L, utilizes an iterative pruning strategy that removes low-magnitude weights across multiple rounds, while resetting the remaining weights to their original initialization. This iterative process is important for the multi-task image restoration model’s optimization, effectively uncovering “winning tickets” that maintain or exceed state-of-the-art performance at high sparsity levels. Experimental evaluation on benchmark datasets for the deraining, dehazing, and denoising tasks shows that MIR-L retains only 10% of the trainable parameters while maintaining high image restoration performance.
 
 ---
 
